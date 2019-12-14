@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if n <= 1
+  if number <= 1
       return false
   else
       if (2...number).any? { |i| number % i  == 0}
